@@ -3,3 +3,7 @@
 @theme {
     --color-ejemplo-text: #f8f8ff;
 }
+
+.social-buttons {
+ @apply p-2 w-12 h-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform;   
+}
