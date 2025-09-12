@@ -4,11 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ejemplo.links - Enlaces de ejemplo y cursos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
+<body class="max-w-xl mx-auto border-black min-h-dvh bg-gradient-to-b from-black to-stone-900">
+    <header class="text-white">
         <h1>ejemplo.links</h1>
         <p>Enlaces de ejemplo y cursos</p>
+        <div class="flex gap-4">
+            <!-- Twitch button -->
+            <a class="bg-purple-100 p-2 w-12 h-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform" href="https://twitch.tv/ej3mpl0" target="_blank" aria-label="Twitch" title="Ir a Twitch de @ej3mpl0">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite.svg#twitch"/>
+                </svg>
+            </a>
+
+            <!-- Github button -->
+            <a class="bg-black p-2 w-12 h-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform border border-gray-700" href="https://github.com/JairoMS27" target="_blank" aria-label="Github" title="Ir a Github de @ej3mpl0">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite.svg#github"/>
+                </svg>
+            </a>
+            
+            
+            <!-- Instagram button with gradient background -->
+            <a class="bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-600 p-2 w-12 h-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform" href="https://instagram.com/ej3mplo_" target="_blank" aria-label="Instagram" title="Ir a Instagram de @ej3mpl0">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite.svg#instagram"/>
+                </svg>
+            </a>
+            
+            <!-- LinkedIn button -->
+            <a class="bg-white p-2 w-12 h-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform" href="https://linkedin.com/in/jairoams/" target="_blank" aria-label="LinkedIn" title="Ir a LinkedIn de @ej3mpl0">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite.svg#linkedin"/>
+                </svg>
+            </a>
+            
+            <!-- YouTube button -->
+            <a class="bg-white p-2 w-12 h-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform" href="https://youtube.com/@ej3mpl0" target="_blank" aria-label="YouTube" title="Ir a YouTube de @ej3mpl0">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite.svg#youtube"/>
+                </svg>
+            </a>
+            
+            <!-- X (Twitter) button -->
+            <a class="bg-black p-2 w-12 h-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform border border-gray-700" href="https://x.com/ej3mplo" target="_blank" aria-label="X" title="Ir a X de @ej3mpl0">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite.svg#x"/>
+                </svg>
+            </a>
+        </div>
     </header>
     <main>
         Aqui van los mega cursos que hacemos
