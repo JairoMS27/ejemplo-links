@@ -1,4 +1,4 @@
-# Tailwind CSS Course Project
+# Curso de Tailwind desde Cero
 
 Este proyecto es una práctica de Tailwind CSS, un framework de utilidades para crear interfaces modernas y responsivas rápidamente.
 
